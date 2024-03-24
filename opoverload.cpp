@@ -2,8 +2,8 @@
 using namespace std;
 class add{
     public:
-        int a=10;
-    add() : a(10){}
+        int a=12;
+    add() : a(12){}
     void operator ++(){
         ++a;
     }
