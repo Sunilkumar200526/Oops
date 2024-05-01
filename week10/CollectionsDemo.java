@@ -9,9 +9,9 @@ public class CollectionsDemo
     {
         // List
         ArrayList<String> obj=new ArrayList<>();
+        obj.add("sunil");
+        obj.add("sai");
         obj.add("virat");
-        obj.add("lavanya");
-        obj.add("likki");
         System.out.println("List is : "+obj);
 
 
@@ -28,8 +28,8 @@ public class CollectionsDemo
 
         // HashMap
         Map<String, Integer> h=new HashMap<>();
-        h.put("lavanya", 01);
-        h.put("likki",27);
+        h.put("sunil", 18);
+        h.put("virat",45);
         System.out.println("Hash map is : "+h);
     }
 }
