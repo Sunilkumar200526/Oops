@@ -9,8 +9,8 @@ public class MapInterface
     public static void main(String[] args)
     {
         Map<String, Integer> h=new HashMap<>();
-        h.put("Lavanya", 01);
-        h.put("likki",27);
+        h.put("sunil", 45);
+        h.put("sai",52);
         System.out.println("Hash map is : "+h);
         // Iterating over key-value pairs
         System.out.println("Key-Value pairs :");
